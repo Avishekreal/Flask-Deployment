@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 # Load the trained model
-model = joblib.load('C:/Users/AVISHEK/best_xgboost_model.pkl')
+model = joblib.load('best_xgboost_model.pkl')
 
 # Initialize FastAPI
 app = FastAPI()
